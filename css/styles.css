@@ -687,21 +687,57 @@ ul {
 .section-6-man {
     position: relative;
     margin-left: -38px;
-    background: url('../images/albom2.png');
     width: 489px;
     height: 716px;
 }
 
+.section-6-1-man {
+    background: url('../images/albom2.png');
+}
+
+.section-6-2-man {
+    background: url('../images/albom2.png');
+}
+
+.section-6-3-man {
+    background: url('../images/albom2.png');
+}
+
+.section-6-4-man {
+    background: url('../images/albom2.png');
+}
+
+.section-6-5-man {
+    background: url('../images/albom2.png');
+}
+
 .section-6-man-2 {
     position: relative;
-    /*margin-left: -38px;*/
-    background: url('../images/albom2-2.png') no-repeat;
+    background-repeat: no-repeat;
     background-size: contain;
-    /*background-size: auto 100%;*/
     width: 100%;
-    /*height: 339px;*/
     height: 0;
     padding-top: 47.1%;
+}
+
+.section-6-1-man-2 {
+    background-image: url('../images/albom2-2.png');
+}
+
+.section-6-2-man-2 {
+    background-image: url('../images/albom2-2.png');
+}
+
+.section-6-3-man-2 {
+    background-image: url('../images/albom2-2.png');
+}
+
+.section-6-4-man-2 {
+    background-image: url('../images/albom2-2.png');
+}
+
+.section-6-5-man-2 {
+    background-image: url('../images/albom2-2.png');
 }
 
 .section-6-href {
@@ -1427,6 +1463,7 @@ b {
 #respond-carousel-3 {
     margin-top: 40px;
 }
+
 #respond-carousel-3 article {
     padding-top: 0;
     padding-bottom: 0;
@@ -1449,7 +1486,7 @@ b {
 }
 
 @media (min-width: 992px) {
-    #section-6 .col-md-52.col-xs-100 p{
+    #section-6 .col-md-52.col-xs-100 p {
         margin-bottom: 20px;
     }
 }
