@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'BebasNeue Regular';
+	src: url('BebasNeue%20Regular.eot');
+	src: local('☺'), url('BebasNeue%20Regular.woff') format('woff'), url('BebasNeue%20Regular.ttf') format('truetype'), url('BebasNeue%20Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'BebasNeue Bold';
+	src: url('BebasNeue%20Bold.eot');
+	src: local('☺'), url('BebasNeue%20Bold.woff') format('woff'), url('BebasNeue%20Bold.ttf') format('truetype'), url('BebasNeue%20Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HelveticaNeueCyr-Roman';
+	src: url('HelveticaNeueCyr-Roman.eot');
+	src: local('☺'), url('HelveticaNeueCyr-Roman.woff') format('woff'), url('HelveticaNeueCyr-Roman.ttf') format('truetype'), url('HelveticaNeueCyr-Roman.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HelveticaNeueCyr-Medium';
+	src: url('HelveticaNeueCyr-Medium.eot');
+	src: local('☺'), url('HelveticaNeueCyr-Medium.woff') format('woff'), url('HelveticaNeueCyr-Medium.ttf') format('truetype'), url('HelveticaNeueCyr-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HelveticaNeueCyr-Bold';
+	src: url('HelveticaNeueCyr-Bold.eot');
+	src: local('☺'), url('HelveticaNeueCyr-Bold.woff') format('woff'), url('HelveticaNeueCyr-Bold.ttf') format('truetype'), url('HelveticaNeueCyr-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaNeueCyr-Light';
+    src: url('HelveticaNeueCyr-Light.eot');
+    src: url('HelveticaNeueCyr-Light-.eot#iefix') format('embedded-opentype'),
+         url('HelveticaNeueCyr-Light.woff2') format('woff2'),
+         url('HelveticaNeueCyr-Light.woff') format('woff'),
+         url('HelveticaNeueCyr-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
