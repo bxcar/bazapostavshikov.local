@@ -1495,6 +1495,11 @@ b {
     background: url("../images/img-bb/map.png") #d7f3ff no-repeat
 }
 
+.section-7 .left-block,
+.section-7 .right-block {
+    position: relative;
+}
+
 .section-7 .content {
     border: 1px solid #c1c1c1;
     border-radius: 10px;
@@ -1502,7 +1507,7 @@ b {
     text-align: center;
     width: 308px;
     position: relative;
-    /*box-shadow: 0 5px 10px rgba(0,0,0,0.5);*/
+    z-index: 2;
 }
 
 .section-7 .content:after {
@@ -1527,25 +1532,10 @@ b {
 }
 
 .section-7 .content .title {
-    width: 172px;
+    position: relative;
+    top: -12px;
     margin-left: auto;
     margin-right: auto;
-    text-transform: uppercase;
-    color: #fff;
-    font-family: "MyriadProBold", sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    padding: 15px 28px;
-    border-radius: 10px;
-    margin-top: -9px;
-}
-
-.section-7 .left-block .content .title {
-    background: linear-gradient(to top, #e068b0, #e580bd);
-}
-
-.section-7 .right-block .content .title {
-    background: linear-gradient(to top, #006dd4, #0083db);
 }
 
 .section-7 .content .price {
