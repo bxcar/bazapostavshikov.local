@@ -1491,6 +1491,103 @@ b {
     }
 }
 
-#section-7 {
+.section-7 {
     background: url("../images/img-bb/map.png") #d7f3ff no-repeat
+}
+
+.section-7 .content {
+    border: 1px solid #c1c1c1;
+    border-radius: 10px;
+    background: linear-gradient(to top, #e3e3e3, #fafafa);
+    text-align: center;
+    width: 308px;
+    position: relative;
+    /*box-shadow: 0 5px 10px rgba(0,0,0,0.5);*/
+}
+
+.section-7 .content:after {
+    content: url('/images/img-bb/left-bottom-shadow.png');
+    position: absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.section-7 .left-block .content {
+    width: 308px;
+}
+
+.section-7 .right-block .content {
+    width: 411px;
+}
+
+.section-7 .content > * {
+    display: block;
+}
+
+.section-7 .content .title {
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "MyriadProBold", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px 28px;
+    border-radius: 10px;
+    margin-top: -9px;
+}
+
+.section-7 .left-block .content .title {
+    background: linear-gradient(to top, #e068b0, #e580bd);
+}
+
+.section-7 .right-block .content .title {
+    background: linear-gradient(to top, #006dd4, #0083db);
+}
+
+.section-7 .content .price {
+    position: relative;
+    font-family: "MyriadProBold", sans-serif;
+    font-size: 78px;
+}
+
+.section-7 .content .price sup {
+    font-family: "MyriadProRegular", sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    position: relative;
+    top: -5px;
+}
+
+.section-7 .left-block .content .price {
+    color: #818181;
+}
+
+.section-7 .right-block .content .price {
+    color: #3491da;
+}
+
+.section-7 .content .content-row {
+    display: inline-block;
+    padding-top: 18px;
+    font-family: "MyriadProRegular", sans-serif;
+    font-size: 18px;
+}
+
+.section-7 .content .content-row:after {
+    content: url('/images/img-bb/border-bottom.png');
+    display: block;
+}
+
+.section-7 .content .button {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section-7 .content .button:hover {
+    cursor: pointer;
 }
