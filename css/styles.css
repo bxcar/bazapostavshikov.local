@@ -1490,3 +1490,7 @@ b {
         margin-bottom: 20px;
     }
 }
+
+#section-7 {
+    background: url("../images/img-bb/map.png") #d7f3ff no-repeat
+}
