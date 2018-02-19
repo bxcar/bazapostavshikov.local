@@ -1151,7 +1151,7 @@ b {
 
 #vk_groups,
 #vk_groups iframe {
-    height: 402px !important;
+    /*height: 402px !important;*/
 }
 
 #modal-2 p,
@@ -1491,33 +1491,33 @@ b {
     }
 }
 
-.section-7 {
+.section-7-1 {
     background: url("../images/img-bb/map.png") #d7f3ff no-repeat;
     background-size: cover;
     padding: 130px 0 90px
 }
 
-.section-7 .row {
+.section-7-1 .row {
     display: flex;
     justify-content: center;
 }
 
-.section-7 .left-block,
-.section-7 .right-block {
+.section-7-1 .left-block,
+.section-7-1 .right-block {
     position: relative;
     display: inline-block;
     vertical-align: top;
 }
 
-.section-7 .left-block {
+.section-7-1 .left-block {
     margin-right: 35px;
 }
 
-.section-7 .right-block {
+.section-7-1 .right-block {
     margin-left: 35px;
 }
 
-.section-7 .content {
+.section-7-1 .content {
     border: 1px solid #c1c1c1;
     border-radius: 10px;
     background: linear-gradient(to top, #e3e3e3, #fafafa);
@@ -1527,7 +1527,7 @@ b {
     z-index: 2;
 }
 
-.section-7 .content:after {
+.section-7-1 .content:after {
     content: url('/images/img-bb/left-bottom-shadow.png');
     position: absolute;
     left: 0;
@@ -1536,33 +1536,33 @@ b {
     margin-right: auto;
 }
 
-.section-7 .left-block .content {
+.section-7-1 .left-block .content {
     width: 308px;
 }
 
-.section-7 .right-block .content {
+.section-7-1 .right-block .content {
     width: 411px;
 }
 
-.section-7 .content > * {
+.section-7-1 .content > * {
     display: block;
 }
 
-.section-7 .content .title {
+.section-7-1 .content .title {
     position: relative;
     top: -12px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.section-7 .content .price {
+.section-7-1 .content .price {
     position: relative;
     font-family: "MyriadProBold", sans-serif;
     font-size: 78px;
     margin-bottom: 15px;
 }
 
-.section-7 .content .price sup {
+.section-7-1 .content .price sup {
     font-family: "MyriadProRegular", sans-serif;
     font-size: 25px;
     text-transform: uppercase;
@@ -1570,66 +1570,122 @@ b {
     top: -5px;
 }
 
-.section-7 .left-block .content .price {
+.section-7-1 .left-block .content .price {
     color: #818181;
 }
 
-.section-7 .right-block .content .price {
+.section-7-1 .right-block .content .price {
     color: #3491da;
 }
 
-.section-7 .content .content-row {
+.section-7-1 .content .content-row {
     display: inline-block;
     padding-top: 15px;
     font-family: "MyriadProRegular", sans-serif;
     font-size: 18px;
 }
 
-.section-7 .content .content-row.bold {
+.section-7-1 .content .content-row.bold {
     font-family: "MyriadProBold", sans-serif;
 }
 
-.section-7 .content .content-row:after {
+.section-7-1 .content .content-row:after {
     content: url('/images/img-bb/border-bottom.png');
     display: block;
 }
 
-.section-7 .content .button {
+.section-7-1 .content .button {
     display: block;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.section-7 .content .button:hover {
+.section-7-1 .content .button:hover {
     cursor: pointer;
 }
 
-.section-7 .left-block .img {
+.section-7-1 .left-block .img {
     margin-top: 80px;
 }
 
 @media (max-width: 878px) {
-    .section-7 .row {
+    .section-7-1 .row {
         display: block;
     }
 
-    .section-7 .left-block,
-    .section-7 .right-block {
+    .section-7-1 .left-block,
+    .section-7-1 .right-block {
         position: relative;
         display: flex;
         justify-content: center;
     }
 
-    .section-7 .left-block {
+    .section-7-1 .left-block {
         margin-right: 0;
         margin-bottom: 80px;
     }
 
-    .section-7 .right-block {
+    .section-7-1 .right-block {
         margin-left: 0;
     }
 
-    .section-7 .left-block .img {
+    .section-7-1 .left-block .img {
         display: none;
     }
+}
+
+.section-7 {
+    background-color: #95cbf0;
+}
+
+.section-7 .section-title-h2{
+    background: none;
+}
+
+.section-7 .vk-wrap-in {
+    background-color: #ececec !important;
+    padding: 33px;
+}
+
+.section-7 .vk-wrap {
+    background: #fff;
+    padding: 16px;
+}
+
+.section-7 .container {
+    position: relative;
+}
+
+.section-7 .container .smiles-bg {
+    position: absolute;
+}
+
+.section-7 .container .smiles-bg-1 {
+    right: -120px;
+    top: 100px;
+}
+
+.section-7 .container .smiles-bg-2 {
+    top: 104px;
+    left: -175px;
+}
+
+.section-7 .container .vk-wrap {
+    position: relative;
+    z-index: 1;
+}
+
+.section-7 .smile {
+    position: absolute;
+    z-index: 2;
+}
+
+.section-7 .smile-1 {
+    top: 140px;
+    left: 950px;
+}
+
+.section-7 .smile-2 {
+    bottom: -40px;
+    left: 30px;
 }
