@@ -1530,10 +1530,10 @@ b {
 .section-7 .content:after {
     content: url('/images/img-bb/left-bottom-shadow.png');
     position: absolute;
-    left:0;
-    right:0;
-    margin-left:auto;
-    margin-right:auto;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-7 .left-block .content {
@@ -1585,6 +1585,10 @@ b {
     font-size: 18px;
 }
 
+.section-7 .content .content-row.bold {
+    font-family: "MyriadProBold", sans-serif;
+}
+
 .section-7 .content .content-row:after {
     content: url('/images/img-bb/border-bottom.png');
     display: block;
@@ -1602,4 +1606,30 @@ b {
 
 .section-7 .left-block .img {
     margin-top: 80px;
+}
+
+@media (max-width: 878px) {
+    .section-7 .row {
+        display: block;
+    }
+
+    .section-7 .left-block,
+    .section-7 .right-block {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-7 .left-block {
+        margin-right: 0;
+        margin-bottom: 80px;
+    }
+
+    .section-7 .right-block {
+        margin-left: 0;
+    }
+
+    .section-7 .left-block .img {
+        display: none;
+    }
 }
