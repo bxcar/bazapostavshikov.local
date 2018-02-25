@@ -714,31 +714,33 @@ ul {
 .section-6-man-2 {
     position: relative;
     background-repeat: no-repeat;
-    background-size: contain;
+    /*background-size: contain;*/
+    background-size: cover;
     width: 100%;
     height: 0;
-    padding-top: 47.1%;
+    /*padding-top: 47.1%;*/
+    padding-top: 100%;
 }
 
-.section-6-1-man-2 {
-    background-image: url('../images/albom2-2.png');
+/*.section-6-1-man-2 {
+    background-image: url('../images/albom2.png');
 }
 
 .section-6-2-man-2 {
-    background-image: url('../images/albom2-2.png');
+    background-image: url('../images/albom2.png');
 }
 
 .section-6-3-man-2 {
-    background-image: url('../images/albom2-2.png');
+    background-image: url('../images/albom2.png');
 }
 
 .section-6-4-man-2 {
-    background-image: url('../images/albom2-2.png');
+    background-image: url('../images/albom2.png');
 }
 
 .section-6-5-man-2 {
-    background-image: url('../images/albom2-2.png');
-}
+    background-image: url('../images/albom2.png');
+}*/
 
 .section-6-href {
     font-size: 24px;
@@ -1462,6 +1464,9 @@ b {
 
 #respond-carousel-3 {
     margin-top: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #respond-carousel-3 article {
